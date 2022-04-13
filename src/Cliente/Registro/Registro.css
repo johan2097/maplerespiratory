@@ -1,0 +1,132 @@
+
+.PanelBlancoRegistro{
+    background-color: white;
+    width: 620px;
+    height: 460px;
+    margin: 0 auto;   
+}
+
+.BtnGuardar{
+    padding-top: 45px;
+}
+
+.ZoneLabel{
+    padding-top: 30px;
+}
+
+.Correo, .columna{
+    padding-top: 25px;    
+}
+
+
+.Registro-input, .Registro-input-Correo, .Registro-input-contraseña{
+    font-family: OpenSans;
+    font-size: 14px;
+    color: black;
+    
+    width: 250px;
+    height: 40px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.068);
+    border: solid 1px rgba(255, 255, 255, 0.041);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.055);
+    padding-left: 20px;
+    outline: none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+}
+
+@media screen and (max-width: 1920px){
+    .Registro-input-Correo{
+        width: 510px;
+    }
+
+    .Registro-input-contraseña{
+        width: 240px;
+    }
+}
+
+
+@media screen and (max-width: 1366px) {
+    .PanelBlancoRegistro{
+        height: 400px;
+    }
+    .Correo, .columna{
+        padding-top: 15px;    
+    }
+
+    .Registro-input-Correo{
+        width: 510px;
+    }
+
+    .Registro-input-contraseña{
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .PanelBlancoRegistro{
+        width: 80%;
+        height: 50%;
+    }
+
+    .titleLogin{
+        font-size: 150%;
+    }
+
+    .ZoneLabel{
+        padding-top: 10%;
+    }
+    
+    .Correo, .columna{
+        padding-top: 5%;    
+    }
+
+    .BtnGuardar{
+        padding-top: 10%;
+    }
+
+    .Registro-input{
+        max-width: 250px;
+        width: 90%;
+    }
+
+    .Registro-input-Correo{
+        width: 410px;
+    }
+
+    .Registro-input-contraseña{
+        width: 190px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .Registro-input, .Validar-input {
+        width: 140px;
+        height: 25px;
+        font-size: 8px;
+    }
+
+    .titleLogin{
+        font-size: 15px;
+    }
+
+    .Registro-input-Correo{
+        width: 240px;
+        height: 25px;
+        font-size: 8px;
+    }
+
+    .Registro-input-contraseña{
+        width: 105px;
+        height: 25px;
+        font-size: 8px;
+    }
+}
+
+
+

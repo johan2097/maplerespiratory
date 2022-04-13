@@ -1,0 +1,248 @@
+.bold {
+    font-weight: bold;
+}
+
+.right {
+    width: 70%;
+}
+
+.LabelGrande {
+    font-family: OpenSans;
+    color: #063a60;
+    font-size: 40px;
+}
+
+.LabelMedianoGris {
+    font-family: OpenSans;
+    color: rgba(63, 63, 63, 0.712);
+    font-size: 22px;
+}
+
+.MensajeSuperior {
+    padding-top: 10%;
+}
+
+.BusquedaProcedimiento {
+    font-family: OpenSans;
+    font-size: 14px;
+    color: black;
+    border-radius: 30px;
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgba(255, 255, 255, 0.041);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.055);
+    padding-left: 45px;
+    outline: none;
+    flex-grow: 1;
+}
+
+.MenuCentral {
+    margin-bottom: 5%;
+    margin-right: 10px;
+}
+
+.TablaDatos {
+    width: 95%;
+    height: 50%;
+}
+
+
+.ButtonSearch {
+    font-family: OpenSans;
+    background-color: #063a60;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    border: solid 1px rgba(255, 255, 255, 0.041);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.055);
+    outline: none;
+}
+
+.ButtonSearch:hover {
+    background-color: #063a60;
+}
+
+.ButtonSearch:active {
+    background-color: #1b88c4;
+}
+
+.ButtonCSV {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: OpenSans;
+    background-color: #063a60;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 200px;
+    height: 40px;
+    border: solid 1px rgba(255, 255, 255, 0.041);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.055);
+    outline: none;
+}
+
+.ButtonCSV:hover {
+    background-color: #063a60;
+}
+
+.ButtonCSV:active {
+    background-color: #1b88c4;
+}
+
+
+.ButtonTable {
+    font-family: OpenSans;
+    font-weight: bold;
+    background-color: #EFF0F2;
+    color: rgb(60, 61, 65);
+    border-radius: 8px;
+    font-size: 12px;
+    width: 80px;
+    height: 30px;
+    /* border: solid 1px rgba(255, 255, 255, 0.041); */
+    /* box-shadow: 0 0 8px rgba(255, 255, 255, 0.055); */
+    box-shadow: none;
+    border-width: 0px;
+    outline: none;
+    display: block;
+    margin: auto;
+}
+
+.ButtonTable:hover {
+    background-color: rgb(126, 126, 126);
+}
+
+.ButtonTable:active {
+    background-color: #EFF0F2;
+}
+
+
+.BusquedaProdRow {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1366px) {
+    .BusquedaProdRow {
+        display: flex;
+        align-items: center;
+    }
+    .LabelGrande {
+        font-size: 35px;
+    }
+    .LabelMedianoGris {
+        font-size: 18px;
+    }
+    .MensajeSuperior {
+        padding-top: 200px;
+    }
+    .BusquedaProcedimiento {
+        /* width: 340px; */
+        padding-right: 5px;
+    }
+    .AyudaZone {
+        padding-top: 100px;
+    }
+    .LabelInterno {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .right {
+        width: 80%;
+    }
+    .LabelInterno {
+        font-size: 0px;
+    }
+    .LabelGrande {
+        font-size: 25px;
+    }
+    .LabelMedianoGris {
+        font-size: 16px;
+    }
+    .MensajeSuperior {
+        padding-top: 200px;
+    }
+    .BusquedaProcedimiento {
+        /* width: 340px; */
+    }
+    .AyudaZone {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .BusquedaProdRow {
+        display: inline;
+    }
+
+    .ButtonTable {
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .ZonaBusqueda {
+        text-align: left;
+    }
+    .BusquedaProcedimientoRow {
+        display: flex;
+        align-items: center;
+    }
+    .TablaDatos {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .ButtonSearch {
+        width: 80px;
+        height: 30px;
+    }
+
+    .ButtonCSV {
+        width: 70%;
+        height: 30px;
+    }
+
+    .ZonaBusqueda {
+        text-align: center;
+    }
+    .right {
+        justify-content: center;
+    }
+    .LabelGrande {
+        font-size: 16px;
+    }
+    .LabelMedianoGris {
+        font-size: 10px;
+    }
+    .MensajeSuperior {
+        padding-top: 150px;
+        padding-left: 30px;
+    }
+    .BusquedaProcedimiento {
+        /* width: 180px; */
+        height: 30px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    .AyudaZone {
+        padding-top: 100px;
+    }
+    .TablaDatos {
+        width: 95%;
+        height: 70%;
+        margin: auto;
+        font-size: 12px;
+    }
+}

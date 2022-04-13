@@ -1,0 +1,45 @@
+
+{
+  "name": "maple",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.1.1",
+    "lodash": "^4.17.21",
+    "matchmedia-polyfill": "^0.3.2",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-axios": "^2.0.5",
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-csv": "^2.0.3",
+    "react-dom": "^17.0.2",
+    "react-responsive": "^9.0.0-beta.3",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "4.0.3",
+    "react-table": "^7.7.0",
+    "reactstrap": "^8.10.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+
+
+.Grande {
+    font-family: OpenSans;
+    color: #063a60;
+    font-size: 40px;
+}
+.MensajeSuperior {
+    padding-top: 10%;
+}
+.MedianoGris {
+    font-family: OpenSans;
+    color: rgba(63, 63, 63, 0.712);
+    font-size: 22px;
+}
+.inicial{
+    color: #063a60;
+}
+.mencione{
+    color: #063a60;
+    font-size: 18px;
+    text-align: left;
+}
+.ButtonLog1 {
+    font-family: OpenSans;
+    background-color: #063a60;
+    color: white;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 100px;
+    height: 40px;
+    border: solid 1px rgba(255, 255, 255, 0.041);
+    box-shadow: 0 0 8px rgb(255 255 255 / 6%);
+    outline: none;
+}
+
+.form{
+    width: 450px;
+    padding: 10px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+.input, textarea{
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+textarea{
+    min-height: 100px;
+    max-height: 150px;
+    max-width: 100%;
+}
+.boton{
+    background: #063a60;
+    color: #fff;
+    padding: 10px;
+}

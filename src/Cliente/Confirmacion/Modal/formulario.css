@@ -1,0 +1,31 @@
+.mencione{
+    color: #063a60;
+    font-size: 18px;
+    text-align: center;
+}
+
+form{
+    width: 450px;
+    background-color: rgba(85, 85, 85, 0.11);
+    padding: 10px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+textarea{
+    min-height: 100px;
+    max-height: 150px;
+    max-width: 100%;
+}
+#boton{
+    background: #063a60;
+    color: #fff;
+    padding: 10px;
+}

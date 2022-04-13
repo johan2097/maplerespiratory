@@ -1,0 +1,11 @@
+.fondoInternoTres{
+    background-color: rgba(85, 85, 85, 0.11);
+    background-image: url(../../Imagenes/Fondos/Cambiar-contraseña_Confirmacion.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  .label-password {
+    color: #AC1814
+  }

@@ -1,0 +1,122 @@
+
+
+.imagenexito{
+    margin:1px 380px;
+    width: 450vw;
+    height: 99vh;
+}
+@media screen and (max-width: 1366px) {
+    .imagenexito{
+        margin: 1px 280px;
+        width: 90vw;
+       height: 100vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .imagenexito{
+        margin: 1px 100px;
+        width: 100vw;
+       height: 100vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    div.titulo1{
+        width: 500px;
+        height:80px;
+        border-radius: 10px;
+        background-color:#ADD8E6;
+        overflow:hidden;
+    }
+    p.titulo1{
+        text-align: center;
+        margin:13px;
+        font-size:13px;
+        color:black;
+    }
+    p.titulo2{
+        text-align: center;
+        margin:13px;
+        font-size:13px;
+        color:blue;
+    }
+
+    table{
+        background-color: white;
+        text-align: left;
+        border-collapse: collapse;
+        width: 80%;
+    }
+    
+    th, td{
+        padding: 20px;
+    }
+    
+    thead{
+        background-color: #a5a8b3;
+        border-bottom: solid 5px #a5a8b3;
+        color: white;
+    }
+    
+    tr:nth-child(even){
+        background-color: #ddd;
+    }
+    
+    tr:hover td{
+        background-color: #e2e7f8;
+        color: black;
+    }
+    
+
+    .ButtonTable {
+        width: 200px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .ZonaBusqueda {
+        text-align: left;
+    }
+    .BusquedaProcedimientoRow {
+        display: flex;
+        align-items: center;
+    }
+    .TablaDatos {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .ZonaBusqueda {
+        text-align: center;
+    }
+    .right {
+        justify-content: center;
+    }
+    .LabelGrande {
+        font-size: 16px;
+    }
+    .LabelMedianoGris {
+        font-size: 10px;
+    }
+    .MensajeSuperior1 {
+        padding-top: 150px;
+        padding-left: 30px;
+    }
+    .BusquedaProcedimiento {
+        /* width: 180px; */
+        height: 30px;
+        padding-left: 5px;
+        font-size: 10px;
+    }
+    .AyudaZone {
+        padding-top: 100px;
+    }
+    .TablaDatos {
+        width: 95%;
+        height: 70%;
+        margin: auto;
+        font-size: 12px;
+    }
+}
